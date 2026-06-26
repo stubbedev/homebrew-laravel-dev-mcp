@@ -1,28 +1,28 @@
 class LaravelDevMcp < Formula
   desc "MCP server for local Laravel development (DB, logs, routes, Telescope)"
   homepage "https://github.com/stubbedev/laravel-dev-mcp"
-  version "0.0.4"
+  version "0.0.5"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/stubbedev/laravel-dev-mcp/releases/download/v#{version}/laravel-dev-mcp-#{version}-darwin-arm64.tar.gz"
-      sha256 "7a0aa2b8c02867fa1091e4d6e2575fa76fe13f7f39960fa486c25b39e22958a5"
+      sha256 "7dac95dbdacebe965ae2bc024c7c61796bb6394c375a14d0dd5e303fb85e756a"
     end
     on_intel do
       url "https://github.com/stubbedev/laravel-dev-mcp/releases/download/v#{version}/laravel-dev-mcp-#{version}-darwin-amd64.tar.gz"
-      sha256 "fc737e7b6ee50c84a16bf4a1b8517f2a02d8ae8ffe749c1cdf90bffa3715f8e0"
+      sha256 "72dc78c11128e8813169284721ad03ce0ae9b7f9580b21cb394f9f2a6b002af4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/stubbedev/laravel-dev-mcp/releases/download/v#{version}/laravel-dev-mcp-#{version}-linux-arm64.tar.gz"
-      sha256 "41032ca306694f33cc0192aef9ab3de7082d84675ab78afde75b61e26b25f61f"
+      sha256 "89a0b870ef5511ab56ee33ed6a7581596569da7eb2015ff9ce9ff28cd1909de9"
     end
     on_intel do
       url "https://github.com/stubbedev/laravel-dev-mcp/releases/download/v#{version}/laravel-dev-mcp-#{version}-linux-amd64.tar.gz"
-      sha256 "621a29a559db48e50ed1fb02de6fa51ae25f7c41578015cd0a1cdf3ec7ebda95"
+      sha256 "9ad2011e3c875307637958342e304e900fdc883a1a18ec43d21861f8588cc0ac"
     end
   end
 
